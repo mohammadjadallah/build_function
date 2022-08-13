@@ -3,7 +3,8 @@
 
 import pandas as pd
 
-# data = pd.DataFrame(data, columns=["Numbers"])
+# I will try my function on csv file contains some data
+# I will leav the csv file with the same name : dirtydata.csv
 data = pd.read_csv("dirtydata.csv")
 
 # The result of std method using pandas
